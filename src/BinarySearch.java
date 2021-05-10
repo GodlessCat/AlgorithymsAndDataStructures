@@ -1,8 +1,8 @@
-import java.util.List;
+import java.util.ArrayList;
 
 public class BinarySearch {
 
-    public static int binarySearch(List<Integer> array, int num) {
+    public static int binarySearch(ArrayList<Integer> array, int num) {
         int leftIndex = 0;
         int rightIndex = array.size() - 1;
 
